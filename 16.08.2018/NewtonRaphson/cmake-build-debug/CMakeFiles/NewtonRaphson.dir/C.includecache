@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xenon/Xenon/Study_Stuffs/c/QuantativeAnalysis/16.08.2018/NewtonRaphson/main.c
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+
