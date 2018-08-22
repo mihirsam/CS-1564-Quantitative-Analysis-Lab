@@ -2,7 +2,7 @@
 #include<math.h>
 
 int count = 0, decimalPlace = 3;
-float num1 = 0.0, num2 = 1.0, mean;
+float num1 = 0.0, num2 = 1.0, mean, e = 0.0001;
 
 float fun(float num)
 {
@@ -27,7 +27,7 @@ int main()
     }
   }
 
-  printf("Bisection Method :\nSl.No.\t\tRoot1\t\tRoot2\n");
+  printf("Bisection Method :\nSl.No.\t\tRoot1\t\t\tRoot2\n");
   while(1)
   {
     mean = (num1 + num2)/2.0;
@@ -41,10 +41,10 @@ int main()
       num1 = mean;
     }
 
-    printf("%d\t\t%f\t\t%f", count, num1, num2);
+    printf("%d\t\t%f\t\t%f\n", count, num1, num2);
     count++;
 
-    if((100 * num1) == (100 * num2))
+    if(num2 - num1 <= e)
     {
       break;
     }
