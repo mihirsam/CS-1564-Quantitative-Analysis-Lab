@@ -1,0 +1,4 @@
+/home/xenon/CLion/clion-2018.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xenon/Xenon/Study_Stuffs/c/QuantativeAnalysis/23.08.108/GaussSeildel
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xenon/Xenon/Study_Stuffs/c/QuantativeAnalysis/23.08.108/GaussSeildel/cmake-build-debug

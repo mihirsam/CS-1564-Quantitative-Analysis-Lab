@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xenon/Xenon/Study_Stuffs/c/QuantativeAnalysis/23.08.108/GaussSeildel/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
