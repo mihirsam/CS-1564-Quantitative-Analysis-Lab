@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/GaussSeildel.dir/main.c.o  -o GaussSeildel -lC -lm 
+/usr/bin/cc -g   CMakeFiles/GaussSeildel.dir/main.c.o  -o GaussSeildel -lm 
